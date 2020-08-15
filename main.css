@@ -1,0 +1,92 @@
+body{
+    font-family: 'Frijole', cursive;
+}
+
+.nav-link{
+    font-size: 1rem;
+    color: #F1D302;
+}
+
+#banner{
+    height: 100vh;
+    background: url(../photos/banner-1.jpg);
+    /* parallax affects */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    /* On Y-axis */
+    align-items: center;
+}
+
+#banner h1{
+    font-size: 2rem;
+    color: red;
+}
+
+#banner .card{
+    border-radius: 0;
+    background-color: transparent;
+    border: 0.3rem solid whitesmoke;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: whitesmoke;
+}
+
+.btn{
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #F1D302;
+    color:#2A2B2A;
+}
+
+.btn:hover{
+    color: #F1D302;
+    cursor: pointer;
+    background-color: #2A2B2A;
+}
+
+@media screen and (max-width:576px){
+    .box{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.title-underline{
+    width: 30%;
+    height: 5px;
+}
+
+#skills{
+    background-color: #706C61;
+}
+
+#prices{
+    background: url(../photos/banner-2.jpg);
+    /* parallax affects */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#prices hr{
+    background-color: #775253;
+    height: 5px;
+}
+
+#team{
+    background-color: #2A2B2A;
+    color: #9b800b;
+}
